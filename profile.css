@@ -207,7 +207,7 @@ a {
     width: 20em;
     display: flex;
     flex-direction: column;
-    border: 3px solid lightgray;
+    border: 2px solid lightgray;
 }
 
 .connection-request-banner > p, .connections-banner > p {
