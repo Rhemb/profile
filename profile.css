@@ -152,3 +152,41 @@ a {
     text-decoration: underline;
     color: gray;
 }
+
+.education-container {
+    margin-top: 2em;
+    height: 27em;
+    width: 35em;
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-banner-header, .connection-request-banner, .connections-banner {
+    height: 4em;
+    background-color: #695b80;
+}
+
+.education-banner-header > p {
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.education-history-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0 2em 40px;
+}
+
+.education1, .education2 {
+    margin-bottom: 2em;
+}
+
+.education1 > h3, .education2 > h3, .education3 > h3 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color: gray;
+}
