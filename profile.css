@@ -51,3 +51,104 @@ a {
     background-color: #9754CB;
     box-shadow: 0px 0px 6px;
 }
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 25em 0 25em;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card-container {
+    height: 24em;
+    width: 35em;
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-header {
+    height: 120px;
+    background-color: #d6ccde;
+}
+
+.profile-img { 
+    width: 8em;
+    margin-top: 3em;
+    margin-left: 2em;
+    position: absolute;
+}
+
+.circle1 {
+    border-radius: 10em;
+    margin-top: 40px;
+    margin-left: 24px;
+    border: 5px solid #695b80;
+    position: absolute;
+    height: 134px;
+    width: 134px;
+}
+
+.circle2 {
+    border-radius: 10em;
+    margin-top: 45px;
+    margin-left: 28px;
+    position: absolute;
+    border: 4px solid white;
+    height: 126px;
+    width: 127px;
+}
+
+.user-name {
+    margin: 70px 40px 6px 40px;
+    font-size: 20px;
+    display: flex;
+}
+
+.user-name > p {
+    font-size: larger;
+}
+
+.location {
+    margin: 5px 40px 5px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.location > p {
+    font-size: 19px;
+}
+
+.marker-img {
+    width: 1em;
+    margin-right: 10px;
+}
+
+.user-bio {
+    margin: 10px 40px 10px 40px;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.edit-profile {
+    margin: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gear-icon {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.edit-profile > a {
+    font-size: 17px;
+    text-decoration: underline;
+    color: gray;
+}
