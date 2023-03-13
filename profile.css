@@ -278,3 +278,64 @@ a {
     margin-left: 10px;
     cursor: pointer;
 }
+
+.connections-container {
+    height: 29em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid lightgray;
+    margin-top: 2em;
+}
+
+.current-connnections {
+    padding-top: 15px;
+    padding-right: 15px;
+    color: black;
+    text-align: right;
+    font-size: 25px;
+}
+
+.connection-1, .connection-2, .connection-3, .connection-4 {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0 0 2em;
+}
+
+.connection-name {
+    font-size: 20px;
+    margin: 1em 4px 0 1em;
+}
+
+.connections-fullcircle {
+    width: 55px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.connections-fullcircle > p {
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.view-more{
+    height: 3em;
+    width: 20em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid lightgray;
+    border-top: none;
+}
+
+.view-more > a {
+    padding-left: 2em;
+    font-size: 20px;
+    color: gray;
+    text-decoration: underline;
+}
